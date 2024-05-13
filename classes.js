@@ -11,10 +11,10 @@ class Appointment{
         if  (this.availability == true){
         console.log(`My name is ${this.name} I have booked ${this.doctorName} who is a ${this.specialization}  on ${date}`);
         }else{
-         console.log(`Look for another hosiptal`);
+         console.log(`Wait until another date`);
         }
     }
 }
-const Smith = new Appointment("Smith","Optician");
-Smith.patientDetails("mercy",20,"malaria","I will come with my husband");
+const Smith = new Appointment("Naserian","Optician");
+Smith.patientDetails("Naserian",20,"malaria","I will come with an NHIF");
 Smith.doctorsAvailability("28th,May,2024")
